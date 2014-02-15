@@ -1,0 +1,16 @@
+float ViewportWidth;
+float ViewportHeight;
+
+// Calculate the 2D screenposition of a position vector
+float2 PostProjToScreen(float4 position)
+{
+	float2 screenPos = position.xy / position.w;
+	return 0.5f * (float2(screenPos.x, -screenPos.y) + 1);
+}
+
+// Calculate the size of one half of a pixel, to convert
+// between texels and pixels
+float2 HalfPixel()
+{
+	return 0.5f / float2(ViewportWidth, ViewportHeight);
+}

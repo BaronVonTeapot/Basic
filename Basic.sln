@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "Basic\Basic\Basic.csproj", "{0210F777-8EB1-4149-AA72-F9388AD44E47}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "BasicContent", "Basic\BasicContent\BasicContent.contentproj", "{0E59514A-A079-4C84-8646-22548243D0C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{6DCB4FBF-B9FA-4914-ACA4-9E0566DEEC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "System\Core.csproj", "{8AAC1B3B-861C-4AF8-AF94-5A5D1A8E0D9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Noise", "Noise\Noise.csproj", "{0E88B58D-C8C2-44C6-AC5C-AE9A5F8B34F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pipeline", "Pipeline\Pipeline.csproj", "{BB42C67C-B217-49B4-B362-1B6B04222E82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animation", "Animation\Animation.csproj", "{248EBF5A-A75A-4B2E-BFD1-0FA69D0BC942}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0210F777-8EB1-4149-AA72-F9388AD44E47}.Debug|x86.ActiveCfg = Debug|x86
+		{0210F777-8EB1-4149-AA72-F9388AD44E47}.Debug|x86.Build.0 = Debug|x86
+		{0210F777-8EB1-4149-AA72-F9388AD44E47}.Release|x86.ActiveCfg = Release|x86
+		{0210F777-8EB1-4149-AA72-F9388AD44E47}.Release|x86.Build.0 = Release|x86
+		{0E59514A-A079-4C84-8646-22548243D0C7}.Debug|x86.ActiveCfg = Debug|x86
+		{0E59514A-A079-4C84-8646-22548243D0C7}.Release|x86.ActiveCfg = Release|x86
+		{6DCB4FBF-B9FA-4914-ACA4-9E0566DEEC95}.Debug|x86.ActiveCfg = Debug|x86
+		{6DCB4FBF-B9FA-4914-ACA4-9E0566DEEC95}.Debug|x86.Build.0 = Debug|x86
+		{6DCB4FBF-B9FA-4914-ACA4-9E0566DEEC95}.Release|x86.ActiveCfg = Release|x86
+		{6DCB4FBF-B9FA-4914-ACA4-9E0566DEEC95}.Release|x86.Build.0 = Release|x86
+		{8AAC1B3B-861C-4AF8-AF94-5A5D1A8E0D9F}.Debug|x86.ActiveCfg = Debug|x86
+		{8AAC1B3B-861C-4AF8-AF94-5A5D1A8E0D9F}.Debug|x86.Build.0 = Debug|x86
+		{8AAC1B3B-861C-4AF8-AF94-5A5D1A8E0D9F}.Release|x86.ActiveCfg = Release|x86
+		{8AAC1B3B-861C-4AF8-AF94-5A5D1A8E0D9F}.Release|x86.Build.0 = Release|x86
+		{0E88B58D-C8C2-44C6-AC5C-AE9A5F8B34F6}.Debug|x86.ActiveCfg = Debug|x86
+		{0E88B58D-C8C2-44C6-AC5C-AE9A5F8B34F6}.Debug|x86.Build.0 = Debug|x86
+		{0E88B58D-C8C2-44C6-AC5C-AE9A5F8B34F6}.Release|x86.ActiveCfg = Release|x86
+		{0E88B58D-C8C2-44C6-AC5C-AE9A5F8B34F6}.Release|x86.Build.0 = Release|x86
+		{BB42C67C-B217-49B4-B362-1B6B04222E82}.Debug|x86.ActiveCfg = Debug|x86
+		{BB42C67C-B217-49B4-B362-1B6B04222E82}.Debug|x86.Build.0 = Debug|x86
+		{BB42C67C-B217-49B4-B362-1B6B04222E82}.Release|x86.ActiveCfg = Debug|x86
+		{BB42C67C-B217-49B4-B362-1B6B04222E82}.Release|x86.Build.0 = Debug|x86
+		{248EBF5A-A75A-4B2E-BFD1-0FA69D0BC942}.Debug|x86.ActiveCfg = Debug|x86
+		{248EBF5A-A75A-4B2E-BFD1-0FA69D0BC942}.Debug|x86.Build.0 = Debug|x86
+		{248EBF5A-A75A-4B2E-BFD1-0FA69D0BC942}.Release|x86.ActiveCfg = Release|x86
+		{248EBF5A-A75A-4B2E-BFD1-0FA69D0BC942}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
